@@ -1,0 +1,282 @@
+a, abbr, acronym, address, applet, article, aside, audio, b, big, blockquote, body, canvas, caption, center, cite, code, dd, del, details, dfn, div, dl, dt, em, embed, fieldset, figcaption, figure, footer, form, h1, h2, h3, h4, h5, h6, header, hgroup, html, i, iframe, img, ins, kbd, label, legend, li, mark, menu, nav, object, ol, output, p, pre, q, ruby, s, samp, section, small, span, strike, strong, sub, summary, sup, table, tbody, td, tfoot, th, thead, time, tr, tt, u, ul, var, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    font-family: "Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+}
+article, aside, details, figcaption, figure, footer, header, hgroup, main, menu, nav, section {
+    display: block;
+}
+.blue_cont p{
+    word-break: break-all;
+    text-align: justify;
+    margin-top: 10px;
+}
+* {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+}
+.head{
+   background-image: url(../img/background1.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    position: relative;
+    
+}
+.blue_title{
+    font-size:19px;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:bold;
+    color: #04A8F5;
+    padding-top: 85%;
+    margin-left: 20px;
+}
+.blue_cont{
+    font-size: 14px;
+    
+    margin: 5px 20px;
+}
+.blue_cont > img{
+    width: 100%;
+    margin-top: 20px;
+}
+.blue_box{
+    background:linear-gradient(180deg,rgba(127,192,238,1),rgba(35,148,227,1));
+    border-radius:10px;
+    padding: 10px 10px;
+    margin-top: 10px;
+}
+.L1{
+    color: #FFFFFF;
+    font-size: 20px;
+}
+.L2{
+    color: #FFFFFF;
+}
+.title1{
+    font-size: 25px;
+    font-weight: bold;
+}
+.JJ-20 p{
+    margin-bottom: 20px;
+}
+.yellow p{
+    background:rgba(255,249,194,1);
+    padding: 10px 10px;
+}
+.gif{
+    padding-left: 22%;
+
+}
+.gif img{
+    width: 70%;
+}
+.result{
+    background: rgb(243, 243, 243) none repeat scroll 0% 0%;
+    padding: 1em;
+    margin: 15px 0px
+}
+
+.bold{
+    font-weight: bold;
+}
+.notice{
+    background: #E2FBFF none repeat scroll 0% 0%;
+    width: 100%;
+    color: rgb(17, 13, 13);
+    text-align: center;
+    padding: 10px;
+    line-height: 17px;
+    font-size: 14px;
+    margin-top: 20px;
+}
+.conversation > span{
+    position: relative;
+    left: 74px;
+    bottom: 38px;
+    font-size:10px;
+    color: #77777A;
+}
+.content{
+    position: relative;
+    left: 74px;
+    bottom: 20px;
+    font-size:18px;
+    margin-right: 120px;
+}
+.content span{
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:400;
+    width: 100%;
+    color:rgba(55,55,55,1);
+    font-size: 13px;
+}
+a{ 
+    text-decoration:none; 
+    color:#333; 
+}
+.reply{
+    padding-left: 74px;
+}
+.reply > a{
+    margin-right: 15px;
+}
+.reply > span{
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    color: #727272;
+    
+}
+.reply > img{
+    transform: scale(0.8);
+    position: relative;
+    top:3px;
+    margin-right: 3px;
+}
+.share{
+    float:right;
+    margin-right: 20px;
+    transform: scale(0.8);
+}
+.user{
+    display: flex;
+    flex-direction: row;
+    margin-top: 30px;
+}
+.user img{
+    width:60px;
+    height:60px;
+    border-radius:50%;
+    
+    
+}
+.name{
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:bold;
+    font-size: 15px;
+    padding: 0;
+    margin: 0
+}
+.r_msg{
+    display: flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    flex:1;
+    margin-left: 10px;
+}
+.r_msg img{
+   transform: scale(0.35);
+   margin: 0;
+   position: relative;
+   right:11px;
+   bottom: 22px;
+}
+.leader{
+    height:16px;
+    font-size:14px;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:400;
+    color:rgba(114,114,114,1);
+    position: relative;
+    right:20px;
+    bottom:2px;
+}
+.more img{
+    height: 20px;
+    width: 20px;
+    margin-right: 20px;
+}
+.BB{
+    
+    background:#62B3EB;
+    border-radius:8px;
+    margin: 20px 20px 60px 20px;
+    text-align: center;
+    padding:15px 15px;
+}
+.BB p{
+    font-size:17px;
+    font-family:"Microsoft Yahei","Helvetica","Arial","Helvetica Neue","Hiragino Sans GB","Heiti SC","WenQuanYi Micro Hei","sans-serif";
+    font-weight:bold;
+    color:rgba(255,255,255,1);
+    text-align:center;
+    margin-top:0px;
+}
+.banner img{
+    width: 100%;
+}
+.bt{
+    position: absolute;
+    z-index: 1;
+    transform: scale(0.5);
+    top: 120px;
+    left: 73px;
+    -webkit-animation: free_download 0.5s linear alternate infinite;
+    animation: free_download 0.5s linear alternate infinite;
+}
+
+@-webkit-keyframes free_download{
+    0%{-webkit-transform:scale(0.5);}
+    100%{-webkit-transform:scale(0.51);}
+}
+@keyframes free_download{
+    0%{transform:scale(0.5);}
+    100%{transform:scale(0.51);}
+}
+.move img{
+    transform: scale(0.5);
+    position: absolute;
+    top: 40%;
+    left: 15%;
+    -webkit-animation: free_download 1s linear alternate infinite;
+    animation: free_download 1s linear alternate infinite;
+}
+.banner{
+    position: relative;
+    display: block;
+    line-height: 0;
+}
+.banne{
+    position: relative;
+}
+.banne > img{
+    width: 100%;
+    margin-top: 20px;
+}
+a, img { 
+    -webkit-touch-callout: none; 
+}
+.c{
+    width: 100%;
+}
+.mm1 img{
+    transform: scale(0.5);
+    position: absolute;
+    top: 35%;
+    left: 15%;
+    -webkit-animation: free_download 1s linear alternate infinite;
+    animation: free_download 1s linear alternate infinite;
+}
+.mm1{
+    position: relative;
+}
+#e1{
+    width: 100%;
+}
+
+#no{
+    position: fixed;
+    left :0;
+    bottom: 0;
+    
+}
+.ak{
+    background-color: white;
+    height: 110px;
+    
+}
+.yes{
+    display: none;
+}
